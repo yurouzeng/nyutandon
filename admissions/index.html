@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admissions | NYU Tandon School of Engineering</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/admissions.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+        <a href="../index.html"><img src="../images/NYU_Tandon_logo.png" width="150px"></a>
+        <div class="search">
+          <input type="text" placeholder="Search">
+        </div>
+        <nav>
+            <ul>
+                <hr noshade />
+                <li><a href="#">News</a></li>
+                <hr noshade />
+                <li><a href="#">Events</a></li>
+                <hr noshade />
+                <li><div class="dropdown">
+                <button class="dropdown-btn">Admissions +</button>
+                <div class="dropdown-container">
+                  <a href="index.html">Undergraduate</a>
+                  <a href="#">Graduate</a>
+                  <a href="#">Tandon Online</a>
+                  <a href="#">Financial Aid</a>
+                </div></div></li>
+                <hr noshade />
+                <li><div class="dropdown">
+                <button class="dropdown-btn">Academics +</button>
+                <div class="dropdown-container">
+                  <a href="#">Majors & Programs</a>
+                  <a href="#">Minors</a>
+                  <a href="#">Departments</a>
+                  <a href="#">Honors Program</a>
+                  <a href="#">BS/MS Program</a>
+                  <a href="#">Study Abroad</a>
+                  <a href="#">Online Learning</a>
+                </div></div></li>
+                <hr noshade />
+                <li><div class="dropdown">
+                <button class="dropdown-btn">About +</button>
+                <div class="dropdown-container">
+                  <a href="#">Explore Tandon</a>
+                  <a href="#">Year in Review</a>
+                  <a href="#">History</a>
+                  <a href="#">Administration</a>
+                  <a href="#">Giving to Tandon</a>
+                </div></div></li>
+                <hr noshade />
+                <li><div class="dropdown">
+                <button class="dropdown-btn">Research +</button>
+                <div class="dropdown-container">
+                  <a href="#">Labs & Groups</a>
+                  <a href="#">Student Work</a>
+                  <a href="#">Future Labs</a>
+                  <a href="#">K-12 STEM</a>
+                  <a href="#">MakerSpace</a>
+                  <a href="#">Veteran Support</a>
+                </div></div></li>
+                <hr noshade />
+            </ul>
+        </nav>
+        <div class="ext">
+            <a href="https://www.facebook.com/nyutandon"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://twitter.com/NYUTandon"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/NYUTandon/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCbQFE_SZsfNTg4J1Os1JNHQ"><i class="fab fa-youtube-square"></i></a>
+        </div>
+
+        <script>
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+            } else {
+              dropdownContent.style.display = "block";
+            }
+          });
+        }
+        </script>
+    </header>
+
+    <main>
+    	<div class="content clearfix">
+    		<div class="headline">Undergraduate Admissions</div>
+    		<div class="quote">Engineer <i>Tomorrow</i><br>at the NYU Tandon<br>School of Engineering</div>
+    		<p>A world-class, research university in the heart of downtown Brooklyn. Dedicated faculty, state-of-the-art labs, groundbreaking research. <a href="#">Learn more</a></p>
+    	</div>
+    	<img class="side_img" src="../images/admissions1.jpg" />
+    	
+    	<div class="admission-chart clearfix">
+    		<img src="../images/admissions2.jpg" />
+    		<p><span style="background-color: #57068c">The New York University Tandon School of Engineering offers programs in engineering, applied sciences, technology and research, and is rooted in a 160-year tradition of invention, innovation and entrepreneurship.</span></p>
+        	<table>
+    		  <tr>
+    		    <td><a href="#">Academics</a></td>
+    		    <td><a href="#">How to Apply</a></td> 
+    		    <td><a href="#">Financial Aid</a></td>
+    		  </tr>
+    		  <tr>
+    		    <td><a href="#">Special Programs</a></td>
+    		    <td><a href="#">Student Profiles</a></td> 
+    		    <td><a href="#">Why Tandon</a></td>
+    		  </tr>
+    		</table>
+        </div>
+        
+        <div class="imageswords clearfix">
+            <img src="../images/admissions3.jpg" />
+            <p><span style="background-color: #57068c">We welcome you to visit our campus, explore Brooklyn, and discover first-hand the NYU Tandon experience. NYU Tandon’s campus is situated within the MetroTech Center in Downtown Brooklyn.</span></p>
+        </div>
+</main>
+
+    <footer>
+      <div class="row">
+        <div class="col-sm-3">
+          <h4>Student Access</h4>
+          <p><a href="#">NYU Libraries</a></p>
+          <p><a href="#">NYU Classes</a></p>
+          <p><a href="#">NYU Albert</a></p>
+        </div>
+        <div class="col-sm-3">
+          <h4>Site Links</h4>
+          <p><a href="#">Press</a></p>
+          <p><a href="#">Directory</a></p>
+          <p><a href="#">Careers and HR</a></p>
+          <p><a href="#">Accessibility</a></p>
+        </div>
+        <div class="col-sm-3">
+          <h4>NYU Campuses</h4>
+          <p><a href="#">New York</a></p>
+          <p><a href="#">Abu Dhabi</a></p>
+          <p><a href="#">Shanghai</a></p>
+        </div>
+        <div class="col-sm-3">
+          <h4>Contact</h4>
+          <p>6 MetroTech Center<br>Brooklyn, NY 11201</p>
+          <p>646.997.3600</p>
+          <p>646.997.3136</p>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

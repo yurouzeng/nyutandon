@@ -1,0 +1,156 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+header {
+	float: left;
+	background-color: #57068c;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	overflow: hidden;
+}
+
+header img {
+	margin: 40px 25px;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+	font-family: "Gotham", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+header a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+header a.active {
+	color: #8820DE;
+}
+
+nav ul {	
+	list-style-type: none;
+	margin: 0px -40px;
+	width: 240px;
+}
+
+nav li {
+	margin: 0px 0px;
+	padding: 17px 0px 17px 25px;
+/*	border: 1px solid white;*/
+}
+
+hr {
+	background-color: white;
+	height: 1px;
+	border-width: 0px;
+}
+
+nav li:hover {
+	background-color: #320560;
+}
+
+nav a, .dropdown-btn {
+	text-decoration: none;
+	display: block;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	font-family: "Gotham", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform:uppercase;
+	color: white;
+}
+
+.search {
+	font-size: 12px;
+	margin: 0 0 30px 20px;
+}
+
+.search input[type=text] {
+	padding: 6px;
+    border: none;
+}
+
+.dropdown-btn {
+	background-color: transparent;
+	padding: 0;
+	margin: 0;
+}
+
+.dropdown {
+  	overflow: hidden;
+}
+
+.dropdown-container {
+  	display: none;
+}
+
+.dropdown-container a {
+  	padding: 10px 0 0 10px;
+  	color: #A48BB6;
+}
+
+.dropdown-container a:hover {
+  	padding-top: 10px;
+  	color: white;
+}
+
+.ext {
+	margin: 20px 13px;
+}
+
+.ext a {
+	margin: 0px 10px;
+	color: #320560;
+	font-size: 25px;
+}
+
+.ext a:hover {
+	transition: 1s;
+	color: #210337;
+}
+
+footer {
+	font-size: 16px;
+	margin-top: 20px;
+	padding: 50px 100px 30px 100px;
+	border-top: 5px solid #C6C6C6;
+}
+
+footer h4 {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: "Gotham", sans-serif;
+	font-weight: bold;
+	padding: 10px 0px;
+}
+
+footer p {
+	font-size: 12px;
+	text-transform: none;
+	color: black;
+	font-weight: normal;
+}
+
+footer a {
+	color: black;
+}
+
+footer a:hover {
+	color: black;
+}
